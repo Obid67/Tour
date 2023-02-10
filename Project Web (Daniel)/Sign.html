@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <style>
+        *{
+    height: auto;
+    width: auto;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+        }
+
+       .input  {
+        text-align: center;
+        border: 2px groove;
+        width: 500px;
+        height: 40px;
+        font-size: 20px;
+        border-radius: 10px;
+       }
+       form {
+        margin-top: 200px;
+        margin-left: 350px;
+        margin-bottom: 200px;
+        border: 4px hidden ;
+        background-color: a(0.3);
+        width: 600px;
+        text-align: center;
+        border-radius: 20px;
+        padding-left: -200;
+        padding-right: -200;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        border-width: 9px;
+        cursor: pointer;
+        background-color: rgba(240, 240, 240, 0.2);
+       }
+       .date {font-size: 20px; color: darkgoldenrod} 
+       button {
+        text-align: center;
+        border: 2px groove;
+        width: 100px;
+        height: 40px;
+        font-size: 20px;
+        border-radius: 30px;
+        border-color: gold;
+        cursor: pointer;
+       }
+       button:hover {
+        background-color: seagreen;
+        color: azure;
+       }
+       h1 {color: darkgoldenrod}
+       a {color: darkgoldenrod; text-decoration: none; font-size: 18px;}
+    </style>
+</head>
+<body background="brigde.jpg">
+    <div>
+    <form action="">
+        <h1>Register</h1>
+        <input type="text"  placeholder="Username" class="input" required><br><br>
+        <input type="text" placeholder="Firstname" class="input" required><br><br>
+        <input type="text" placeholder="Lastname" class="input" required><br><br>
+        <input type="email" placeholder="Email-address" class="input" required><br><br>
+        <input type="Password" placeholder="Password" class="input" required><br><br>
+        <input type="password" placeholder="Confirm password" class="input" required><br><br>
+        <input type="text" placeholder="Home Address" class="input" required><br><br>
+        <label for="date" class="date">Date of Birth:</label><br>
+        <input type="date" name="calendar" id="date" class="input" required><br><br>
+
+        <input type="text" placeholder="Qualification" class="input" required><br><br>
+        <button type="submit" value="Sign Up">Sign Up</button>
+        <a href="login.html">Already have an account? Login.</a>
+    </form>
+    </div>
+</body>
+</html>

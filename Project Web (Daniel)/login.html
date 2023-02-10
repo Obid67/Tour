@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        *{
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins',sans-serif;
+       }
+       body {background-repeat: no-repeat;
+            background-size: cover;
+              text-align: center
+              
+              
+        }
+       .input  {
+        text-align: center;
+        border: 2px groove;
+        width: 500px;
+        height: 40px;
+        font-size: 20px;
+        border-radius: 10px;
+       }
+       form {
+        margin-top: 200px;
+        margin-left: 300px;
+        border: 4px hidden ;
+        background-color: a(0.3);
+        width: 600px;
+        text-align: center;
+        border-radius: 20px;
+        padding-left: -200;
+        padding-right: -200;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        border-width: 9px;
+        cursor: pointer;
+        background-color: rgba(240, 240, 240, 0.8);
+       }
+       .date {font-size: 20px; color: rgb(245, 210, 10);} 
+       button {
+        text-align: center;
+        border: 2px groove;
+        width: 100px;
+        height: 40px;
+        font-size: 20px;
+        border-radius: 30px;
+        border-color: darkred;
+        cursor: pointer;
+       }
+       .inputbox{
+        align-items: center;
+       }
+       input{
+        width: 200px;
+        border-radius: 10px;
+       }
+       button:hover {
+        background-color: darkcyan;
+        color: azure;
+       }
+       .forget{
+        text-align: center;
+       }
+       h1 {color: darkred}
+       a {color: darkred; text-decoration: none; font-size: 18px;}
+         
+    </style>
+    <title>Login</title>
+    <link href="https://fonts.googleapis.com/css2?family=Paytone+One&family=Poppins:wght@200&display=swap" rel="stylesheet">
+</head>
+<body background="pexels-sam-kolder-2387873.jpg">
+    <section>
+        <div class="form-box">
+          <div class="form-value">
+            <form action="">
+                <h2>Login</h2>
+                <div class="inputbox">
+                    <ion-icon name="mail-outline"></ion-icon>
+                    <input type="email" required placeholder="Email">
+                </div>
+
+                <div class="inputbox">
+                    <ion-icon name="lock-closed-outline"></ion-icon>
+                    <input type="password" placeholder="Password" required>
+                    
+                </div>
+                <div class="forget">
+                    
+                    <a href="#">Forget Password</a>
+                </div>
+                <button>Log In</button>
+                <div class="register">
+                    <p>Don't have a account? <a href="Sign.html">Register</a></p>
+                </div>
+            </form>
+          </div>
+        </div>
+    </section>
+<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
